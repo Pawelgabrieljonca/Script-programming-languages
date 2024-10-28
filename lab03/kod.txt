@@ -1,0 +1,29 @@
+def li():
+    list = [] #definiowanie listy
+    print(list)
+    list.extend([6,7,8,9,10])
+    first_two = list[:2]
+    print(first_two)
+    print(list[-2:])
+    print(list)
+    print(len(list))
+    print(list[::2])
+    list.append(50)
+    list.append("Hej")
+    list.sort()
+    list.pop()
+    list.reverse()
+    list.insert(2, 100)
+    num = list.count(13)
+    print(num)
+    print(list)
+def main():
+    li()
+
+if __name__ == '__main__':
+    main()
+
+@@
+
+
+@@
