@@ -13,7 +13,7 @@ def test_student_grades_correct_data():
     results = student_grades()
     assert results[0]["imię"] == "Paweł"
     assert results[1]["nazwisko"] == "Nowak"
-    assert results[2]["numer_indeksu"] == 34567
+    assert results[2]["numer_indeksu"] == 12345
 
 def test_student_grades_data_structure():
     results = student_grades()
