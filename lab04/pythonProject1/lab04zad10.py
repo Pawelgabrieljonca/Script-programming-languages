@@ -4,5 +4,7 @@ class Student:
         self.last_name = last_name
         self.index = index
 
-    def __eq__(self, other: 'Student') -> bool:
+    def __eq__(self, other) -> bool:
+        if not isinstance(other, Student):
+            return False
         return self.index == other.index
